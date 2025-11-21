@@ -1,0 +1,14 @@
+# Dummy dataset for reproducible onboarding and testing
+# Represents simplified student performance data (non-sensitive)
+
+student_id,attendance,assignments,labs,final_score
+S001,0.82,0.67,0.74,0.76
+S002,0.90,0.80,0.85,0.85
+S003,0.60,0.55,0.50,0.55
+S004,0.75,0.70,0.65,0.70
+S005,0.95,0.88,0.92,0.90
+S006,0.40,0.45,0.35,0.42
+S007,0.70,0.60,0.68,0.66
+S008,0.85,0.78,0.80,0.82
+S009,0.55,0.50,0.45,0.50
+S010,0.92,0.85,0.88,0.88

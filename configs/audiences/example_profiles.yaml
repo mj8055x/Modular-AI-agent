@@ -1,0 +1,34 @@
+# Audience profiles for tailoring explanations
+# Each profile defines the level of detail and style of explanation
+
+student:
+  summary_style: "simple"
+  technical_detail: "minimal"
+  counterfactuals: true
+  caveats: true
+  language_level: "basic"
+  visualization: "bar_chart"
+
+faculty:
+  summary_style: "moderate"
+  technical_detail: "medium"
+  counterfactuals: true
+  caveats: true
+  language_level: "intermediate"
+  visualization: "heatmap"
+
+administrator:
+  summary_style: "concise"
+  technical_detail: "high"
+  counterfactuals: false
+  caveats: true
+  language_level: "professional"
+  visualization: "dashboard"
+
+regulator:
+  summary_style: "formal"
+  technical_detail: "full"
+  counterfactuals: false
+  caveats: true
+  language_level: "expert"
+  visualization: "audit_report"

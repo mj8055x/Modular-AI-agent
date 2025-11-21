@@ -1,0 +1,33 @@
+# Governance configuration for ResponsibilityModule
+# Defines ethical guardrails, thresholds, and compliance rules
+
+# Minimum confidence required for a decision to be considered valid
+min_confidence: 0.7
+
+# Whether sensitive attributes (e.g., gender, caste, income) are allowed
+use_sensitive_attrs: false
+
+# Escalation policy for blocked decisions
+escalation:
+  notify_admin: true
+  log_to_audit: true
+  remediation_required: true
+
+# Bias and fairness checks
+fairness:
+  check_distribution: true
+  max_disparity: 0.1   # maximum allowed disparity across groups
+
+# Privacy rules
+privacy:
+  anonymize_logs: true
+  redact_sensitive_fields: true
+
+# Audit bundle configuration
+audit:
+  include_trace_id: true
+  include_data_hash: true
+  include_model_version: true
+  include_timestamp: true
+  include_explanation_summary: true
+  include_caveats: true
