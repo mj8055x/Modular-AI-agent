@@ -47,7 +47,7 @@ It is structured into three independently testable modules:
 ---
 
 ## 🏗️ Repository Structure
-```
+
 responsible_agent/
 ├─ configs/              # Governance and audience profiles
 ├─ data/                 # Dummy datasets for reproducible onboarding
