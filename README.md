@@ -19,27 +19,3 @@ Interfaces and data contracts
 **• 	Inputs: Decision artifacts, explanation text, governance policy, risk thresholds
 • 	Outputs: Policy verdicts, bias metrics, consent/privacy flags, audit bundle
 • 	Contract: Blocks or flags decisions that fail guardrails; records rationale and remediation path.
-
-responsible_agent/
-├─ configs/
-│  ├─ task_specs/         # YAML schemas per domain
-│  ├─ governance/         # Fairness, privacy, escalation policies
-│  └─ audiences/          # Explanation profiles (student, admin, regulator)
-├─ data/
-│  ├─ raw/                # Immutable source data
-│  ├─ processed/          # Versioned, hashed datasets
-│  └─ fixtures/           # Dummy datasets for tests and demos
-├─ modules/
-│  ├─ decision/
-│  ├─ explanation/
-│  └─ responsibility/
-├─ tests/
-│  ├─ unit/
-│  ├─ integration/
-│  └─ compliance/
-├─ reports/
-│  ├─ audits/
-│  └─ model_cards/
-└─ scripts/
-   ├─ run_demo.py
-   └─ export_audit_bundle.py
